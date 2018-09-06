@@ -1,0 +1,55 @@
+  body {
+    background-color: rgba(0,0,0,0.11);
+  }
+  /*Header Designs*/
+  
+  .logo {
+    font-family: Comfortaa;
+    font-size: 7em;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.4);
+    margin-bottom: 0;
+  }
+  
+  /*Drum Machine Design*/
+  
+  #drum-machine {
+    margin: 5%;
+    background-color: rgba(110, 130, 150, 0.98);
+    border-radius: 2%;
+    padding: 20px;
+    color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+  }
+  
+  .drum-pad {
+    width: 25%;
+    min-height: 120px;
+    margin: 1%;
+    display: inline-grid;
+    align-items: center;
+    color: rgb(110, 130, 150);
+    border: 5px solid rgb(110, 130, 150);
+    font-family: Comfortaa;
+    background-color: rgb(249, 249, 249, 0.9);
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.4s;
+  }
+  
+  .drum-pad:hover {
+    background-color: rgb(96, 114, 133);
+    border: 5px solid white;
+    color: white;
+  }
+  
+  #description {
+    font-size: 2em;
+    text-align: left;
+  }
