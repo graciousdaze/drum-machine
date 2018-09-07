@@ -25,10 +25,8 @@ $(document).ready(function(){
 });
 
 function playSound(soundSrc){
-    console.log(soundSrc);
     let makeNoise = new Howl({
         src: soundSrc
     });
     makeNoise.play();
-    console.log("La la la la");
 };
