@@ -45,7 +45,7 @@
     color: rgb(110, 130, 150);
     border: 5px solid rgb(110, 130, 150);
     font-family: Comfortaa;
-    background-color: rgb(249, 249, 249, 0.9);
+    background-color: rgba(249, 249, 249, 0.9);
     font-weight: bold;
     font-size: 2em;
     transition: 0.4s;
