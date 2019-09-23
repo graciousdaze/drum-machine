@@ -1,8 +1,9 @@
   body {
     background-color: rgba(0,0,0,0.11);
     font-family: Comfortaa;
+    text-align: center;
   }
-  /*Header Designs*/
+  /*Header and Description Designs*/
   
   .logo {
     font-size: 5em;
@@ -10,7 +11,16 @@
     text-shadow: 2px 2px rgba(0,0,0,0.4);
     margin: 0;
   }
+
+  #description {
+    font-size: 1.25em;
+    margin-left: 5%;
+  }
   
+#credits {
+  font-size: 0.75em;
+}
+
   /*Drum Machine Design*/
   
   #drum-machine {
@@ -19,17 +29,17 @@
     border-radius: 2%;
     padding: 20px;
     color: #f9f9f9;
-    text-align: center;
   }
   
   #display {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 15% 70% 15%;
     color: white;
   }
   
   .drum-pad {
     width: 25%;
+    grid-row-start: 2;
     min-height: 120px;
     margin: 1%;
     display: inline-grid;
@@ -46,10 +56,4 @@
     background-color: rgb(96, 114, 133);
     border: 5px solid white;
     color: white;
-  }
-  
-  #description {
-    font-size: 1.5em;
-    text-align: left;
-    margin-left: 5%;
   }
