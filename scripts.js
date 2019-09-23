@@ -10,8 +10,6 @@ const sounds = {
     c: 'sounds/squiggle.mp3'
 };
 
-console.log("Connected!");
-
 $(document).keydown(function(event) {
     if(sounds[event.key] !== undefined){
         playSound(sounds[event.key]);
