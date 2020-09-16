@@ -13,6 +13,8 @@ const sounds = {
 $(document).keydown(function(event) {
     if(sounds[event.key] !== undefined){
         playSound(sounds[event.key]);
+        $("#" + event.key).toggleClass("triggered");
+        setTimeout(function(){$("#" + event.key).toggleClass("triggered");}, 500);
     }
 });
 
@@ -27,4 +29,4 @@ function playSound(soundSrc){
         src: soundSrc
     });
     makeNoise.play();
-};
+}
